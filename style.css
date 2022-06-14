@@ -1,0 +1,77 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main section div.container {
+  border-radius: 2rem;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgb(0, 255, 213);
+  margin-bottom: 1rem;
+}
+main section div.container img {
+  height: 10rem;
+  border-radius: 2rem;
+  margin-left: 0.5rem;
+}
+main section div.container div.container_items div.container_items--amounts {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+main section div.container div.container_items div.container_items--amounts button {
+  font-size: 2rem;
+  text-align: center;
+  vertical-align: 40%;
+  width: 3rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: rgba(210, 105, 30, 0.473);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+main section div.container div.container_items div.container_items--amounts button:hover {
+  transform: scale(1.1);
+}
+main section div.container div.container_items .container_items--subtotal {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+main section div.container div.container_items .container_items--subtotal .subtotal__amount {
+  width: 5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: antiquewhite;
+}
+main .g_total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blueviolet;
+  border-radius: 3rem;
+  width: 22.5rem;
+  color: white;
+  font-size: 1.2rem;
+}
+main .g_total h5 {
+  margin-left: 5px;
+}
+main .g_total p {
+  background-color: antiquewhite;
+  width: 5rem;
+  padding: 1rem;
+  border-radius: 3rem;
+  margin-right: 1rem;
+  color: blueviolet;
+  text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+/*# sourceMappingURL=style.css.map */

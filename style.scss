@@ -1,0 +1,83 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    section div.container{
+    // border: 2px solid red;
+    border-radius: 2rem;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgb(0, 255, 213);
+    margin-bottom: 1rem;
+        img{
+        height: 10rem;
+        border-radius: 2rem;
+        margin-left: 0.5rem;
+
+     }
+        div.container_items{
+          div.container_items--amounts{
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+
+            button{
+                font-size: 2rem;
+                text-align: center;
+                vertical-align: 40%;
+                width: 3rem;
+                border-radius: 1rem;
+                border: none;
+                background-color: rgba(210, 105, 30, 0.473);
+                cursor: pointer;
+                transition: all 0.5s;
+                &:hover{
+                    transform:scale(1.1);
+                    }
+            }
+         }
+            .container_items--subtotal{
+            text-align: center;
+            display: flex;
+            align-items: center;
+            gap: 3rem;
+                .subtotal__amount{
+                width: 5rem;
+                padding: 1rem;
+                border-radius: 1rem;
+                background-color: antiquewhite;
+                }
+              }
+        }
+    }
+    .g_total{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        background-color: blueviolet;
+        border-radius: 3rem;
+        width: 22.5rem;
+        color: white;
+        font-size: 1.2rem;
+
+        h5{
+            margin-left: 5px;
+        }
+
+        p {
+            background-color: antiquewhite;
+            width: 5rem;
+            padding: 1rem;
+            border-radius: 3rem;
+            margin-right: 1rem;
+            color:blueviolet;
+            text-align: center;
+            font-size: 1.2rem;
+            letter-spacing: 1px;
+        }
+    }
+}
